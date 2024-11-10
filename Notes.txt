@@ -65,3 +65,18 @@ used to check the condition and then executed
 4. switch
 
 Nested if- if inside another if
+
+
+forloop
+3 parts
+
+1. Initialization - 1 time
+2. condition-n+1 times
+3. increment/decrement - n times
+
+Switch is mainly used for menu driven approach
+we can use int,byte, char, string in switch case; other datatypes are not allowed
+
+
+break is used to stop the execution
+continue is used to skip the iteration
