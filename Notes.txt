@@ -80,3 +80,53 @@ we can use int,byte, char, string in switch case; other datatypes are not allowe
 
 break is used to stop the execution
 continue is used to skip the iteration
+
+For loop will executed until the condition fails, you will know number of iteration before running the code
+if you don't know number of iteration before running the code, you cannot use for loop.
+
+
+Array-> we can store multiple values in single variable
+int a=10;
+
+int marks[]={65,87,98,86}
+
+int marks[]=new int[6];
+marks[0]=65;
+marks[1]=87;
+marks[2]=98;
+marks[3]=86;
+
+Array index starts with zero
+
+number of elements in an array can be taken using length property
+marks.length
+
+marks index start with 0 and ends with marks.length-1
+
+Above array is single dimentional array 1 row many columns
+
+2D array more than 1 rows and more than 1 columns
+
+int marks[3][6]={{65,87,96,55,63,72},{64,81,92,53,73,82},{75,97,96,58,63,52}}
+i                     0                     1                    2
+j                 0   1  2  3  4 5    0   1  2  3  4  5    0  1  2  3  4  5
+int marks[][]=new int[3][6];
+
+marks[0][0]=65;
+marks[0][1]=87;
+.
+.
+.
+.
+.
+Harikumar-65 87 96 55 63 72 total=678 grade=A
+Jagan-64 81 92 53 73 82
+Moorthy-75 97 96 58 63 52
+
+
+if percenta >90 A
+81-90  B
+71-80  C
+       D
+       E
+<50    F
