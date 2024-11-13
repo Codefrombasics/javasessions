@@ -130,3 +130,23 @@ if percenta >90 A
        D
        E
 <50    F
+
+String is a collection of characters
+String is a class
+
+String s1="Java"; String literal
+String s2="Java"; String literal
+
+In String literal if the value of two literals are same then it will share the memory in String Constant Pool(SCP)
+
+
+String s3= new String("Java");//String object- will be stored in heap
+
+String s4=new String("Java");
+
+String object will store the data in new location, even if the content are same it will store the value in different
+location.
+
+
+
+
