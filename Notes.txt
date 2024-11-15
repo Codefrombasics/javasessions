@@ -148,5 +148,24 @@ String object will store the data in new location, even if the content are same 
 location.
 
 
+Object Oriented Programming
+---------------------------
+
+1. class- Fruit(variables and methods, objects)
+2. object- Apple(will have state and behaviours, occupy memory in heap)
+3. inheritance
+4. polymorphism
+5. Data Encapsulation
+6. Dynamic binding
+7. Message passing
+8. Data Abstraction
+
+
+
+
+
+
+
+
 
 
