@@ -20,7 +20,7 @@ for (String friend : myfriend) {
 
 
 int marks[][]={{65,87,96,55,63,72},{64,81,92,53,73,82},{75,97,96,58,63,52}};
-String studentsName[]={"Harikumar","Jagan","Moorthy"};
+String studentsName[]={"Harikumaar","Jagan","Moorthy"};
 
 for (int i = 0; i < marks.length; i++) {
     System.out.print(studentsName[i]+'-');
