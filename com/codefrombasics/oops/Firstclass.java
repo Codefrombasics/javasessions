@@ -11,6 +11,7 @@ public class Firstclass {
     customer.setCustomerAddress("Chennai");
     customer.setCustomerName("Hariharan");
     customer.setCustomerId(1001);
+
     Customer customer2=new Customer();
     customer2.setCustomerAddress("Hyderabad");
     customer2.setCustomerName("Manikandan");

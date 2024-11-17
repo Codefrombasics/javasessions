@@ -83,10 +83,10 @@ public class Stringsdemo {
         System.out.println(String.format("Hello %s and his age is %d","Vishnu",20));
         System.out.println(String.format("value is %.2f",f));
 
-        String text="
-            Java\n
-                Programming";
-        System.out.println(text.indent(4));
+//        String text="
+//            Java\\n
+//                Programming";
+//        System.out.println(text.indent(4));
         // System.out.println(s3+".charAt() "+(s3.charAt(2)));
         // System.out.println(s3+".charAt() "+(s3.charAt(2)));
         // System.out.println(s3+".charAt() "+(s3.charAt(2)));

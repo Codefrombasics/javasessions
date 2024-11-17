@@ -161,6 +161,55 @@ Object Oriented Programming
 8. Data Abstraction
 
 
+Constructor:
+
+Same name like a classname without any return type
+constructor will be called automatically when we create an object
+Constructor is used for initializing variables
+Constructor should be public(not private)
+Constructor can be overloaded
+
+Types of constructor
+1. Empty Contructor(no parameters)
+class User{
+public User(){
+//initialize variables
+}
+}
+User user=new User();
+2. Parameterized Constructor
+
+class User{
+public User(int id, String Name, String addr){
+
+}
+}
+User user=new User(10,'XYZ','Chennai');
+
+
+Constructor Overloading:
+Constructor with same name and different arugments;
+
+
+Method Overloading:
+Method with same name and Different Parameters and Different Return type
+
+00
+01
+10
+11
+
+0-void
+1-any return type(datatype)
+
+void add()-> method without return type and without parameter
+void sub(int,int)-> method without return type with parameters
+int add()-> method with return type without parameter
+int add(int, int)-> method with return type with parameter
+
+
+
+
 
 
 
