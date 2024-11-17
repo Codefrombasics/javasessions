@@ -27,6 +27,7 @@ public class Firstclass {
     // customer.displayCustomerDetails();
     System.out.println(customer.getCustomerId());
     System.out.println(customer);
+
     System.out.println(customer2);
     }
 

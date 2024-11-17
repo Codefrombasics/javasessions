@@ -1,9 +1,9 @@
 package com.codefrombasics.oops;
 
 public class Customer {
-    String customerName;
-    String customerAddress;
-    int customerId;
+   private String customerName;
+   private String customerAddress;
+    private int customerId;
 
     
     public String getCustomerName() {

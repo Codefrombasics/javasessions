@@ -1,9 +1,9 @@
 package com.codefrombasics.oops;
 
 public class User {
-    int userId;
-    String userName;
-    String userEmail;
+    private int userId;
+    private String userName;
+    private String userEmail;
     public User(){//empty construction
         userId=101;
         userName="Hariharan";
