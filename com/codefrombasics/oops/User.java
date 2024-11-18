@@ -4,7 +4,8 @@ public class User {
     private int userId;
     private String userName;
     private String userEmail;
-    public User(){//empty construction
+    public
+    User(){//empty construction
         userId=101;
         userName="Hariharan";
         userEmail="hariharan123@gmail.com";

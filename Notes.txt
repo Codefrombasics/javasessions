@@ -208,6 +208,142 @@ int add()-> method with return type without parameter
 int add(int, int)-> method with return type with parameter
 
 
+this keyword
+
+
+it is a reference to the current object within an instance method or a constructor.
+
+1. Resolve the naming conflicts
+2. Invoke the constructor in the same class
+3. refer to the current instance of the class
+
+this() must be at the beginning of the method
+this cannot be used inside the static method
+this is used to call the constructor of the same class
+this is used to call the variables and methods inside the same class
+
+
+Inheritance
+-----------
+Deriving a property of one class to the other
+Class which is being inherited is called Super class(parent,Base)
+Class which inherits other class is called Sub class(child,derived)
+Child class has all the privilege to access the parent class variables and methods
+
+Protected is an access specifier we used in inheritance relationship
+
+Protected variable and method of a parent class can be accessed inside child class not outside
+
+is a keyword
+
+Dog is a Animal
+Dog extends Animal
+Homeloan is a Loan
+Homeloan extends Loan
+Car is a Vehicle
+Car extends Vehicle
+
+Pencil extends Book
+ScienceBook extends Book
+
+How many public classes can be in a java file?
+
+only one public class, file name will be named as per the public class
+
+Advantage
+1. Reusability
+2. Reduce code
+3. Overriding
+
+Overriding(closed for Modification open for extension)
+
+Method with same name in both base class and derived class
+
+class A{
+void display(){
+}
+
+}
+class B extends A{
+void display(){
+
+}
+}
+
+
+Super Keyword
+
+used to call super class variable, methods and constructor
+
+like this keyword, super keyword must be at the beginning of the method or constructor
+
+no need to redeclare the variables and methods
+
+super()
+super.emiAmount
+super.displayLoanDetails()
+
+
+
+Constructor in Inheritance
+
+
+Both Super class and Subclass has empty constructor
+
+Subclass Constructor will call Super class constructor by default in the case of
+empty constructor
+
+Super class has empty constructor and Sub class has parameterized constructor
+
+Subclass object will call Super class Empty constructor and Sub class parameterized constructor
+if Super class doesn't have empty constructor then it will throw Compiler Error
+
+
+Super class has parameterized constructor and Sub class has parameterized constructor
+
+Subclass constructor must call super class parameterized constructor via super keyword
+
+The above concept is called constructor Chaining. this ensures that all constructors in the chain are executed in a proper order
+allowing for proper initialization of objects(follows the hierarchy)
+
+Note: Base class constructor needs to be called before the derived class constructor, to ensure the base class part has been initialized 1st.
+
+Hierarchical Inheritance
+
+1 Base class
+multiple derived class
+multiple objects
+
+Multilevel Inheritance
+
+1 base
+1 intermediate class
+1 derived class
+
+derived class is an indirect child class to base class
+
+Vehicle
+
+Light Vehicle
+
+Car
+
+
+Multiple Inheritance
+
+Not supported in Java Directly, we can used interface for that
+
+
+more than one base class
+and 1 derived class
+
+why it is not supported?
+we cannot extends more than one class
+because of Diamond problem(2 classes have same variable name)
+
+
+
+
 
 
 
