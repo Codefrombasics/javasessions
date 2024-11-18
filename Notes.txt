@@ -208,6 +208,70 @@ int add()-> method with return type without parameter
 int add(int, int)-> method with return type with parameter
 
 
+this keyword
+
+
+it is a reference to the current object within an instance method or a constructor.
+
+1. Resolve the naming conflicts
+2. Invoke the constructor in the same class
+3. refer to the current instance of the class
+
+this() must be at the beginning of the method
+this cannot be used inside the static method
+this is used to call the constructor of the same class
+this is used to call the variables and methods inside the same class
+
+
+Inheritance
+-----------
+Deriving a property of one class to the other
+Class which is being inherited is called Super class(parent,Base)
+Class which inherits other class is called Sub class(child,derived)
+Child class has all the privilege to access the parent class variables and methods
+
+Protected is an access specifier we used in inheritance relationship
+
+Protected variable and method of a parent class can be accessed inside child class not outside
+
+is a keyword
+
+Dog is a Animal
+Dog extends Animal
+Homeloan is a Loan
+Homeloan extends Loan
+Car is a Vehicle
+Car extends Vehicle
+
+Pencil extends Book
+ScienceBook extends Book
+
+How many public classes can be in a java file?
+
+only one public class, file name will be named as per the public class
+
+Advantage
+1. Reusability
+2. Reduce code
+3. Overriding
+
+Overriding(closed for Modification open for extension)
+
+Method with same name in both base class and derived class
+
+class A{
+void display(){
+}
+
+}
+class B extends A{
+void display(){
+
+}
+}
+
+
+
 
 
 
