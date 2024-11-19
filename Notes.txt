@@ -342,6 +342,84 @@ we cannot extends more than one class
 because of Diamond problem(2 classes have same variable name)
 
 
+Abstract:
+Hiding the unwanted details and showing only the required details
+
+Abstract class:
+Class with abstract keyword
+for class we cannot create object.why?
+abstract class have both abstract method(abstract void display();) and non abstract method(public void display())
+abstract method has no definition
+Ex: abstract void display();
+abstract methods are defined in the derived class
+derived must define the abstract
+abstract class are incomplete class, so we cannot create object
+
+Abstract class is a collection of Abstract method and Non Abstract method
+
+Interface:
+
+Interface is a collection of abstract method and final variables
+Interface will be implemented by a class
+one class can implement multiple interfaces using comma ','
+the class which implements the interface must define all the abstract methods of the
+interface
+one interface can extend another interface.
+
+When you make change in the the interface which is impletement by n classes
+then you have to make changes in all the classes
+instead you can create a new interface with the required changes and extend it with
+the existing interface. implement the new interface in the class only where you want the changes
+
+
+Exception Handling
+------------------
+
+Any abnormal error condition occur during runtime
+
+1. Error(compile time error, syntax errors)
+2. Exception(Runtime errors, caused by User, Storage, Compute)
+
+Super most class of Exception is Throwable
+Exception is a class
+Available in default package lang
+Exception is the super class for all the exceptions
+Every exception must extends the class Exception
+
+Exceptions are two time
+1. Checked Exception(will be known during compile time(IOException)
+2. Unchecked Exception(will be known only at Runtime(Arithmetic Exception)
+
+Blocks to Handle Exception
+1. try-> this block will have the code which raise the exception condition
+2. catch-> this block will catch the exception and display to the user
+3. finally-> this block will have all the resource(DB, files) closing codes, this block will execute compulsorily irrespecitve of Exception occur or not
+
+Try block may have multiple line which may cause the exception, but it will address
+only the 1st Exception it finds.
+
+Super class catch block must be always at the bottom of the sub class Catch block
+catch (ArithmeticException|ArrayIndexOutOfBoundsException ae){
+            System.out.println(ae.getMessage());
+        }catch (Exception e ){
+
+        }
+
+throws keyword can be used to handle the checked exception and it will be given
+next to the method definition.
+
+void add()throws IOException{
+
+}
+the above add method will be called inside either try/catch block or any method
+that throw the IOException
+
+
+throw keyword is used to throw the exception explicitly by user based on some condition
+(Invalid marks exception)
+
+
+
 
 
 
