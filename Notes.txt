@@ -419,6 +419,32 @@ throw keyword is used to throw the exception explicitly by user based on some co
 (Invalid marks exception)
 
 
+Static Keyword
+---------------
+Static variables and methods are not belong to object but it belongs to class
+static keyword is used to access the variable and methods without object
+Static keyword can be used for class also but the class should be a inner class
+Static variable and methods belongs to a class not to a object
+memory will be shared by static variable, only one copy will be maintained
+
+Static method allows only static variable inside the method definition
+Non Static method allows both static and non static variable
+
+Inner class
+
+if inner class static no need to instantiate
+Non static method of inner class allows only static variables
+
+Static methods are not overridable
+
+
+Final
+Final variable does not allow to change the value
+noofmonths,noofdayinaweek,pi
+
+Final method cannot be overriden
+Final class cannot be inherited
+
 
 
 
