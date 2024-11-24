@@ -5,10 +5,10 @@ class X{
     }
 }
 class Y extends X{
-    final void show(){}
+//    final void show(){}
 }
 public class Finaldemo {
     public static void main(String[] args) {
-     Math
+//     Math
     }
 }

@@ -1,11 +1,11 @@
 package Staticdemo;
-class A{
-   static void show(){}
-}
-class B extends A{
-    @Override
-    void show(){}
-}
+//class A{
+//   static void show(){}
+//}
+//class B extends A{
+//    @Override
+//    void show(){}
+//}
 
 
 public class Sample {

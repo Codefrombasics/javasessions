@@ -446,6 +446,25 @@ Final method cannot be overriden
 Final class cannot be inherited
 
 
+Threads in Java
+----------------
+
+
+to bring concurrency(parallel execution)
+By default every Java program will have one thread by default
+Thread is a class
+Running of Thread is decided by OS
+add, sub, mul, div on one thread,
+each task will take 1 min-> 4mins
+those 4 task will be taken care by 4 thread
+1 min per task-> all four task will be completed in 1 min
+
+
+Creating a Thread
+1. By extending a Thread class
+2. By implementing a Runnable Interface
+
+
 
 
 

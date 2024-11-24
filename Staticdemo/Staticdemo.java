@@ -8,7 +8,7 @@ public class Staticdemo {
         // TODO Auto-generated method stub
        //accessing a variable without using object
 //        System.out.println(Sample.val);
-        Sample.show();
+//        Sample.show();
 
         Sample s=new Sample();
         s.val=10;

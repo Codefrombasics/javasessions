@@ -2,7 +2,7 @@ package Staticdemo;
 
 public class Outer {
 
-    int out = 10;
+    static int out = 10;
 
   static class Inner {
         int in = 25;

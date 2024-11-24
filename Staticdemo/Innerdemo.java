@@ -7,7 +7,7 @@ public class Innerdemo {
         // TODO Auto-generated method stub
 
         Outer outer = new Outer();
-        Outer.Inner.show(); //= outer.new Inner();
+//        Outer.Inner.show(); //= outer.new Inner();
 //        inner.show();
 
     }
