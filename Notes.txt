@@ -342,7 +342,7 @@ we cannot extends more than one class
 because of Diamond problem(2 classes have same variable name)
 
 
-Abstract:l
+Abstract:
 Hiding the unwanted details and showing only the required details
 
 Abstract class:
