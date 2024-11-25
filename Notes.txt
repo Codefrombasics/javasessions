@@ -339,7 +339,7 @@ and 1 derived class
 
 why it is not supported?
 we cannot extends more than one class
-because of Diamond problem(2 classes have same variable name)
+because of Diamond problem(2 different classes have same variable name)
 
 
 Abstract:
