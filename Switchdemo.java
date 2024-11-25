@@ -1,6 +1,6 @@
 public class Switchdemo {
     public static void main(String[] args) {
-        long l=908088;
+        long l=90088;
         switch (200) {
             case 10:
                 System.out.println(10);
