@@ -494,6 +494,29 @@ search is easy
 1 2 3 4 5 45 6 7 8 9 11 2 3 4 5 5 6 6 7
 
 
+Linked List
+
+Implements List and Deque interface.
+Dynamic Resizing(expansion and shrinking)
+Best for insertion and deletion
+used Double linked list
+
+
+Map
+
+Stores the value in Key-Value paris.
+Each key maps to one value.
+Keys must be unique
+One null key is allowed in (HashMap)
+
+Types;
+HashMap
+LinkedHashMap
+TreeMap
+
+Hashmap(1 one null keys, non synchronized) and Hashtable(Synchronized, null keys are not allowed)
+
+
 
 
 

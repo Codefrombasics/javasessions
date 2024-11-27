@@ -17,8 +17,17 @@ public class ArrayListdemo {
         System.out.println(arrayList);
         System.out.println(arrayList.get(0));
 
+        //update
+        arrayList.set(1,567);
+        System.out.println(arrayList);
+
+        Collections.sort(arrayList);
+        System.out.println(arrayList);
+
         ArrayList<Emp> empArrayList=new ArrayList<>();
         empArrayList.add(new Emp());
+
+
 
     }
 }
