@@ -465,6 +465,38 @@ Creating a Thread
 2. By implementing a Runnable Interface
 
 
+Method Overriding(Runtime Polymorphism)
+
+used when type of the object is not know before execution
+Method with same name in both base class and derived class
+Base class reference=new Derive class object()
+Runtime polymorphism
+Using Base class reference we cannot access derived class methods, only override methods are accessible
+
+
+Collections
+Its a Framework
+All collection class supports Generic class
+4 Main interfaces in collections framework
+1. List
+2. Set
+3. Map
+4. Queue and Deque
+
+ArrayList
+
+DynamicArray
+Follows the order
+allows duplicate values
+Insertion and Deletion is costly
+search is easy
+
+1 2 3 4 5 45 6 7 8 9 11 2 3 4 5 5 6 6 7
+
+
+
+
+
 
 
 
