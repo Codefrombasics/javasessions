@@ -1,0 +1,11 @@
+StudentID,StudentName,Marks,Subject
+1,Rajesh Kumar,82,Math
+2,Pooja Singh,74,Science
+3,Amit Sharma,89,History
+4,Anita Desai,65,English
+5,Vikram Rao,92,Math
+6,Neha Verma,78,Science
+7,Ravi Patel,55,History
+8,Deepika Mehta,80,English
+9,Arjun Gupta,70,Math
+10,Kavita Reddy,85,Science
